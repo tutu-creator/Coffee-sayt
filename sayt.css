@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFFADA
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.one {
+    font-style: italic;
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+}
+
+nav ul {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    gap: 70px;
+    padding: 0px 150px;
+    margin-top: 30px;
+}
+
+.logo img {
+    position: relative;
+    width: 22px;
+    height: 25px;
+    top: 2px;
+    right: 155px;
+}
+
+.figma {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    gap: 30px;
+    font-size: 11px;
+}
+
+.text {
+    color: white;
+    background-color: #A0583C;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.text1 {
+    color: white;
+    background-color: #A0583C;
+    padding: 15px;
+    border-radius: 8px;
+    padding-left: 45px;
+    cursor: pointer;
+}
+
+.back-img {
+    width: 100%;
+    height: 900px;
+    opacity: 1;
+    background-image: url(assets/BG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+nav ul li a {
+    color: white;
+    white-space: nowrap;
+}
+
+.slider strong {
+    width: 687px;
+    height: 84px;
+    color: #FFFADA;
+    font-size: 80px;
+    margin: 350px;
+    white-space: nowrap;
+    position: relative;
+    top: 200px;
+}
+
+.slider p {
+    width: 517px;
+    height: 56px;
+    color: #CCB9B1;
+    font-size: 30px;
+    margin: 210px;
+    margin-left: 430px;
+    white-space: nowrap;
+}
+
+article {
+    font-size: 20px;
+    color: white;
+    background-color: #C08267;
+    border-radius: 10px;
+    padding: 11px 60px;
+    display: inline-block;
+    margin-left: 610px;
+    position: relative;
+    bottom: 200px;
+    cursor: pointer;
+}
+
+.line-text span {
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    white-space: nowrap;
+    color: #C08267;
+    position: relative;
+    margin: 560px;
+    top: 190px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 240px;
+}
+
+.box {
+    width: 260px;
+    height: 450px;
+    border: solid 0.5px;
+    border-radius: 20px;
+    background-color: #C08267;
+}
+
+.boxes img {
+    padding: 15px;
+}
+
+.boxes h1 {
+    color: #FFFFFF;
+    position: relative;
+    bottom: 35px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.boxes p {
+    color: #FFFADA;
+    font-size: 17px;
+    position: relative;
+    bottom: 50px;
+    padding: 15px;
+    font: bold;
+}
+
+strong {
+    color: #FFFFFF;
+    font-size: 21px;
+    position: relative;
+    padding: 15px;
+    bottom: 20px;
+}
+
+.index {
+    color: white;
+    background-color: #A0583C;
+    font-size: 20px;
+    white-space: nowrap;
+    width: 130px;
+    height: 35px;
+    border-radius: 10px;
+    position: relative;
+    position: absolute;
+    right: 0;
+    position: relative;
+    margin-left: 120px;
+    padding-left: 22px;
+    bottom: 45px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.line-text1 span {
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    white-space: nowrap;
+    color: #C08267;
+    display: inline-block;
+    margin-top: 300px;
+    margin-left: 560px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    margin-top: -20px;
+}
+
+
+.text2 {
+    width: 100%;
+    height: 650px;
+    top: 100px;
+    margin-left: auto;
+}
+
+.line-text2 span {
+    font-size: 30px;
+    color: #FFFADA;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 520px;
+}
+
+.foots {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    align-items: flex-start;
+    font-size: 25px;
+}
+
+.foot ul li {
+    position: relative;
+    top: 10px;
+}
+
+.foot ul li a {
+    color: #FFFFFF;
+}
+
+.foot2 ul li a {
+    color: #FFFADA;
+}
+
+.foot2 ul li {
+    position: relative;
+    top: 10px;
+}
+
+.foot3 ul {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.line {
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    margin-top: 10px;
+}
+
+.foots h1{
+    font-size: 30px;
+}
+
+
+/* =============================================
+   BU KODU ÖNCEKI sayt.css FAYLININ SONUNA YAPIŞDIR
+   ============================================= */
+
+/* ===== TABLET — 1024px ===== */
+@media (max-width: 1024px) {
+
+    nav ul {
+        gap: 20px;
+        padding: 0 40px;
+        font-size: 20px;
+    }
+
+    .slider strong {
+        font-size: 55px;
+        margin: 200px 60px;
+        top: 100px;
+    }
+
+    .slider p {
+        font-size: 22px;
+        margin: 140px 60px;
+        margin-left: 60px;
+    }
+
+    article {
+        margin-left: 200px;
+        bottom: 100px;
+    }
+
+    .line-text span {
+        margin: 400px 200px;
+        top: 100px;
+    }
+
+    .boxes {
+        top: 160px;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 0 20px;
+    }
+
+    .line-text1 span {
+        margin-top: 220px;
+        margin-left: 300px;
+    }
+
+    .line-text2 span {
+        margin-left: 280px;
+    }
+}
+
+/* ===== KİÇİK TABLET — 768px ===== */
+@media (max-width: 768px) {
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+
+    nav ul {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .figma {
+        gap: 10px;
+        font-size: 11px;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .back-img {
+        height: 700px;
+    }
+
+    .slider strong {
+        font-size: 40px;
+        margin: 150px 30px;
+        top: 80px;
+        white-space: normal;
+        width: auto;
+    }
+
+    .slider p {
+        font-size: 18px;
+        margin: 100px 30px;
+        margin-left: 30px;
+        white-space: normal;
+        width: auto;
+    }
+
+    article {
+        margin-left: 100px;
+        bottom: 60px;
+    }
+
+    .line-text span {
+        margin: 300px 100px;
+        top: 80px;
+        font-size: 24px;
+        white-space: normal;
+    }
+
+    .boxes {
+        top: 120px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 0 15px;
+    }
+
+    .line-text1 span {
+        margin-top: 200px;
+        margin-left: 180px;
+        font-size: 24px;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .line-text2 span {
+        margin-left: 150px;
+        font-size: 24px;
+    }
+
+    .foots {
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 0 30px;
+        font-size: 18px;
+    }
+}
+
+/* ===== MOBİL — 480px ===== */
+@media (max-width: 480px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 12px 15px;
+        gap: 10px;
+    }
+
+    .one {
+        font-size: 26px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .figma {
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    .back-img {
+        height: 580px;
+    }
+
+    .slider strong {
+        font-size: 28px;
+        margin: 100px 15px;
+        top: 60px;
+        white-space: normal;
+        width: auto;
+    }
+
+    .slider p {
+        font-size: 15px;
+        margin: 60px 15px;
+        margin-left: 15px;
+        white-space: normal;
+        width: auto;
+    }
+
+    article {
+        margin-left: 30px;
+        bottom: 30px;
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+
+    .line-text span {
+        margin: 200px 20px;
+        top: 50px;
+        font-size: 20px;
+        white-space: normal;
+    }
+
+    .boxes {
+        top: 80px;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+        gap: 20px;
+    }
+
+    .box {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .index {
+        margin-left: 90px;
+    }
+
+    .line-text1 span {
+        margin-top: 120px;
+        margin-left: 50px;
+        font-size: 20px;
+        white-space: normal;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .logos img {
+        max-width: 90px;
+        height: auto;
+    }
+
+    .line-text2 span {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .foots {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+        gap: 25px;
+        margin-top: 50px;
+        font-size: 16px;
+    }
+
+    .foots h1 {
+        font-size: 22px;
+    }
+
+    .foot3 ul {
+        flex-wrap: wrap;
+    }
+}
