@@ -4,6 +4,8 @@ A landing page for a fictional coffee brand, built with pure HTML and CSS.
 
 **Live demo:** https://tutu-creator.github.io/Coffee-sayt/
 
+![Filtro screenshot](assets/screenshot.png)
+
 ## Features
 - Fully responsive design for mobile, tablet and desktop
 - Navigation bar with sign up / login and app download buttons
